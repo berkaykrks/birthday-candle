@@ -9,9 +9,9 @@ document.addEventListener("DOMContentLoaded", () => {
     if (screenWidth < 768) {
       instruction.innerText = "🔥 Muma dokun veya telefonu salla!";
     } else if (screenWidth < 1024) {
-      instruction.innerText = "💻 Fare ile mumu söndürmeye çalış!";
+      instruction.innerText = "💻 Fare imleci ile mumun alevini söndürmeye çalış!";
     } else {
-      instruction.innerText = "🖥 Fare ile mumu söndür!";
+      instruction.innerText = "🖥 Fare imleci ile mumun alevini söndürmeye çalış!";
     }
   }
 
