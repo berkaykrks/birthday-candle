@@ -21,7 +21,7 @@
       display: block;
       position: relative;
       margin: -10em auto 0 auto;
-      
+
     }
 
     /* ============================================== Candle
@@ -117,36 +117,44 @@
       to {
         transform: translateY(0);
       }
-    }
+    }    
+
+    /* Animasyon */
+
 
     .text {
-      color: #fff;
-      font-family: 'Lato', sans-serif;
       text-align: center;
-      margin-top: 30px;
-      animation: fadeInText 2s ease-out forwards;
-      opacity: 0;
+      padding: 2rem;
+      color: #fff;
+      font-family: 'Ubuntu', sans-serif;
+      background: linear-gradient(135deg, #ffb6c1, #ff69b4, #ff1493);
+      border-radius: 20px;
+      max-width: 90%;
+      margin: 2rem auto;
+      animation: fadeInUp 1s ease-out;
+      box-shadow: 0 0 30px rgba(255, 105, 180, 0.6);
     }
 
     .text h1 {
-      font-size: 3rem;
-      font-weight: 700;
-      margin-bottom: 10px;
-      text-shadow: 0 0 20px #ffcc00, 0 0 40px #ff00ff;
+      font-size: 2.4rem;
+      margin-bottom: 1.5rem;
+      color: #fff;
+      text-shadow: 2px 2px #c2185b;
     }
 
     .text p {
-      font-size: 2rem;
-      font-style: italic;
-      letter-spacing: 1px;
-      text-shadow: 0 0 10px #ff99cc;
+      margin: 0.8rem 0;
+      font-size: 1.6rem;
+      line-height: 1.5;
+      opacity: 0;
+      /* Başta görünmez */
+      animation: fadeInUp 0.8s ease forwards;
     }
 
-    /* Animasyon */
-    @keyframes fadeInText {
+    @keyframes fadeInUp {
       from {
         opacity: 0;
-        transform: translateY(20px);
+        transform: translateY(30px);
       }
 
       to {
@@ -324,12 +332,17 @@
     <rect x="10" y="475.571" fill="#fefae9" width="180" height="4" />
   </svg>
   <div class="text">
-    <h1>Dogum günün kutluuuuuuuuuu OLSUNNNNNNN!</h1>
-    <p>Jonas</p>
+    <h1>🎉 Doğum Günün Kutlu Olsun, Jonas! 🎂</h1>
+    <p>Bugün senin günün! 🥳</p>
+    <p>Nice sağlıklı, mutlu, huzurlu yıllara! 🎈</p>
+    <p>Sevdiklerinle dolu kocaman bir yıl dilerim. 💝</p>
+    <p>Her günün bir öncekinden daha güzel geçsin! 🌟</p>
+    <p>Umarım tüm dileklerin gerçek olur! 🌠</p>
+    <p>Yaşa, gül, eğlen, çünkü bu senin doğum günün! 🎊</p>
+    <p>Bugün senin için pastalar kesiliyor! 🍰</p>
+    <p>Senin gibi biri her günü özel kılar! 💫</p>
+    <p>İyi ki doğdun! 💐</p>
+    <p>İyi ki seni tanımışım :() 💐</p>
   </div>
-
-
-
 </body>
-
 </html>
